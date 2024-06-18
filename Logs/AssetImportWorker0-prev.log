@@ -1,0 +1,1506 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.29f1 (204d6dc9ae1c) revision 2116973'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16307 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2021.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity/projects/22011526_spatial_computing
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54253
+Successfully changed project path to: E:/Unity/projects/22011526_spatial_computing
+E:/Unity/projects/22011526_spatial_computing
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14616] Host "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 3387684626 [EditorId] 3387684626 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-39F5VHJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14616] Host "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 3387684626 [EditorId] 3387684626 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-39F5VHJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 118.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.29f1 (204d6dc9ae1c)
+[Subsystems] Discovering subsystems at path E:/Unity/2021.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/projects/22011526_spatial_computing/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   NVIDIA
+    VRAM:     5958 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'E:/Unity/2021.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2021.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2021.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2021.3.29f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/Unity/2021.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002734 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 302 ms
+Refreshing native plugins compatible for Editor in 118.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.016 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1016ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (833ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (112ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (646ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (393ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007548 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\projects\22011526_spatial_computing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\projects\22011526_spatial_computing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 115.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.346 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1347ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1122ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (552ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (87ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5264 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (452.8 KB). Loaded Objects now: 5728.
+Memory consumption went from 209.3 MB to 208.9 MB.
+Total: 3.609600 ms (FindLiveObjects: 0.496400 ms CreateObjectMapping: 0.132900 ms MarkObjects: 2.721100 ms  DeleteObjects: 0.258300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 419.418299 seconds.
+  path: Assets/Starter Package/Reticle Model.fbx
+  artifactKey: Guid(c089bc0a1202749f5b9e3ddd3fe5b371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starter Package/Reticle Model.fbx using Guid(c089bc0a1202749f5b9e3ddd3fe5b371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e857edb779fc2c2f979fad56df235b1c') in 0.649525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Nebula_01.prefab
+  artifactKey: Guid(00f2918771afc4e07b0a2018e54d57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Nebula_01.prefab using Guid(00f2918771afc4e07b0a2018e54d57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca9c84d83fbce107b1d6594471e6492') in 0.224442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Sun Sphere.prefab
+  artifactKey: Guid(ec1861462fc1b46f1a1c1c3c0f1f7f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Sun Sphere.prefab using Guid(ec1861462fc1b46f1a1c1c3c0f1f7f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e5ad32333aada876d3d14f99f9d276') in 0.055468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Asteroids Sphere.prefab
+  artifactKey: Guid(05f83c52d1bc44293a6b0b2bee748289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Asteroids Sphere.prefab using Guid(05f83c52d1bc44293a6b0b2bee748289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c50e93144599110c95c086d6dde25c') in 0.251973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Neptune.prefab
+  artifactKey: Guid(5d1442ad8c11442988e0eca5d8af73f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Neptune.prefab using Guid(5d1442ad8c11442988e0eca5d8af73f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e090610e3f54dd6e40d5082a52ddb5a') in 0.222706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Jupiter.prefab
+  artifactKey: Guid(7e4bfb3c6ba1d4bc4ba31d585abdae0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Jupiter.prefab using Guid(7e4bfb3c6ba1d4bc4ba31d585abdae0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76fc2cf7e889b9e8645a4d0ac3c544d') in 0.237521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Earth.prefab
+  artifactKey: Guid(300f80108a63f48618cb4a1c8b8c1e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Earth.prefab using Guid(300f80108a63f48618cb4a1c8b8c1e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32953654f3828a13d3fec4c3d3034129') in 0.145768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Mercury.prefab
+  artifactKey: Guid(ab152f61198d54532ae39108e616ff59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Mercury.prefab using Guid(ab152f61198d54532ae39108e616ff59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2c6040c8b7694ccb35fcf0c56e7779') in 0.271763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Nebula_00.prefab
+  artifactKey: Guid(0d6eac9ae2914445e800eedd322e8b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Nebula_00.prefab using Guid(0d6eac9ae2914445e800eedd322e8b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2665d33c9871850a72dddba531b4fe') in 0.021504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Sun.prefab
+  artifactKey: Guid(5f776740c447e45afb25edbca842de92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Sun.prefab using Guid(5f776740c447e45afb25edbca842de92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0876c913c737ae5eca3022d4787d7f4') in 0.046775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Mars.prefab
+  artifactKey: Guid(1818e1a170ef94c3aacee2ba50057521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Mars.prefab using Guid(1818e1a170ef94c3aacee2ba50057521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5f551b5c2c6de5586da6c901188543') in 0.217933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Saturn.prefab
+  artifactKey: Guid(b4201d402613a4464b35c805dafcca62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Saturn.prefab using Guid(b4201d402613a4464b35c805dafcca62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba895fa86991a7b49c510747c1112744') in 0.267074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Venus.prefab
+  artifactKey: Guid(835acc1a9ebe24c0fa3854c99346f9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Venus.prefab using Guid(835acc1a9ebe24c0fa3854c99346f9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0c4ca07d34b5c908215ccc5cc90032') in 0.164913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(05c8cf31262271c408ed1c2067234b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(05c8cf31262271c408ed1c2067234b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88347d74c70a669c24c6581f36fdae50') in 0.112388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Pluto.prefab
+  artifactKey: Guid(baebbc833ecda42dd8a75966c9f62420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Pluto.prefab using Guid(baebbc833ecda42dd8a75966c9f62420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382d5c58e1277e462f39506455e20ad1') in 0.175847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Asteroids Belt.prefab
+  artifactKey: Guid(c0aedbee0212d4ba08d6e85a65854d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Asteroids Belt.prefab using Guid(c0aedbee0212d4ba08d6e85a65854d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e001761fae9d4ce9393c74933b04e9b') in 0.017884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Starter Package/Driving Surface Plane.prefab
+  artifactKey: Guid(5c528bf17058b47ba8da01f86c68d6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starter Package/Driving Surface Plane.prefab using Guid(5c528bf17058b47ba8da01f86c68d6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97cd717f775fbe53e630c5129cd03ad') in 0.030786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Uranus.prefab
+  artifactKey: Guid(c91342f6e3afc48fd958056404ead345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Uranus.prefab using Guid(c91342f6e3afc48fd958056404ead345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabdeec3b7c89f40d020f5cd5fac5dad') in 0.535219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Starter Package/Dust Material.mat
+  artifactKey: Guid(ba0efcfa8bc6643cc97d52ce4f48acde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starter Package/Dust Material.mat using Guid(ba0efcfa8bc6643cc97d52ce4f48acde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d79ed7094c06752d1d85f4bc5318e9a') in 0.209505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Starter Package/Reticle Prefab.prefab
+  artifactKey: Guid(c0ffd6e32415c45f59e277fe7314020d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starter Package/Reticle Prefab.prefab using Guid(c0ffd6e32415c45f59e277fe7314020d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f598090ef0e8614756afd26932b1da29') in 0.017438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Moon.prefab
+  artifactKey: Guid(f9a741bb8762344c6a2a9cb4217ef728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Moon.prefab using Guid(f9a741bb8762344c6a2a9cb4217ef728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf32b907c3b93599488d89112f06779') in 0.152537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.724491 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/Sun FX.mat
+  artifactKey: Guid(82479439eac344631aaef1977dcaf8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/Sun FX.mat using Guid(82479439eac344631aaef1977dcaf8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2007681ee9843ec4505763dbf46f54e') in 0.018320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.993155 seconds.
+  path: Assets/Planets of the Solar System 3D/Geometry/Asteroids.fbx
+  artifactKey: Guid(61cb025e834864d63b72bee13fbbb2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Geometry/Asteroids.fbx using Guid(61cb025e834864d63b72bee13fbbb2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44177e1719751d3f9b438bbe2c0f7217') in 0.060030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Planets of the Solar System 3D/Geometry/Earth.fbx
+  artifactKey: Guid(1d1efd74961b744cca932e0880b5eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Geometry/Earth.fbx using Guid(1d1efd74961b744cca932e0880b5eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3744be17d24e84990be0ccd85cff4f4') in 0.041714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Planets of the Solar System 3D/Geometry/Earth_Lod.fbx
+  artifactKey: Guid(277a4092b6ae84cc6970d7a21ac55f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Geometry/Earth_Lod.fbx using Guid(277a4092b6ae84cc6970d7a21ac55f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fde0e7d0ec209a25224e99a2ccbd84') in 0.024497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Planets of the Solar System 3D/Geometry/Ring.fbx
+  artifactKey: Guid(8aa4a8814028a42fea37772e41f89781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Geometry/Ring.fbx using Guid(8aa4a8814028a42fea37772e41f89781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbcf2517b4d09566bdce3105f4137ae') in 0.023726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.013574 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/Skybox.mat
+  artifactKey: Guid(d51a2253cd79945d08fbe9589d8cb631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/Skybox.mat using Guid(d51a2253cd79945d08fbe9589d8cb631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e203edbafb31c180c6e4c60e66d2da') in 0.201223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Mars_2k.mat
+  artifactKey: Guid(8a5995a14cffc46c9946c25b14f7c26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Mars_2k.mat using Guid(8a5995a14cffc46c9946c25b14f7c26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeac122d666692b5265a31a713211972') in 0.033113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Saturn_Lod.mat
+  artifactKey: Guid(b50a4cf008d5346299340465ad3583f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Saturn_Lod.mat using Guid(b50a4cf008d5346299340465ad3583f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a6166a7e6701e550b4d1f5d7d92839') in 0.037132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Asteroid.mat
+  artifactKey: Guid(b5ead511677a448758f7cd3c61b8e557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Asteroid.mat using Guid(b5ead511677a448758f7cd3c61b8e557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58170fd28e515d110abf53e0cbf59ab7') in 0.018125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Pluto_Lod.mat
+  artifactKey: Guid(811507dbca1de47c08d812bfcf368fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Pluto_Lod.mat using Guid(811507dbca1de47c08d812bfcf368fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dac568bb4daeef1a2bd7c55a272c0af') in 0.037074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Mercury_2k.mat
+  artifactKey: Guid(ab6161919f1cb4e40a36aa58f68a2c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Mercury_2k.mat using Guid(ab6161919f1cb4e40a36aa58f68a2c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9151a1cf02ef1eae4af7069b90de3a') in 0.031281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Saturn_2k.mat
+  artifactKey: Guid(3b93dc7ab96024123abc24e04ca01e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Saturn_2k.mat using Guid(3b93dc7ab96024123abc24e04ca01e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf47778dd2e2e0de6865f8d65cb77ea') in 0.032407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Neptune_2k.mat
+  artifactKey: Guid(f29f4f3d96cac4e53954f0d84aad655d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Neptune_2k.mat using Guid(f29f4f3d96cac4e53954f0d84aad655d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a406c20dfd9d23f82f15e81779998a') in 0.029464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Saturn_Ring.mat
+  artifactKey: Guid(e35abc06097ca4fcda800d7ee918a9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Saturn_Ring.mat using Guid(e35abc06097ca4fcda800d7ee918a9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083595989e353a5ef805ec9a4bd848f0') in 0.019475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Pluto_2k.mat
+  artifactKey: Guid(89e79642fd54940e0a8465ce67a29db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Pluto_2k.mat using Guid(89e79642fd54940e0a8465ce67a29db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12028c5bbcd40d8d1017f756b31f6864') in 0.029688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Mars_Lod.mat
+  artifactKey: Guid(9a4f43f54cabf468ba39d389732e09f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Mars_Lod.mat using Guid(9a4f43f54cabf468ba39d389732e09f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add578ce701679b9e3ecc0fba54381ae') in 0.036820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Mercury_Lod.mat
+  artifactKey: Guid(d7a335629d5364542a8c4be1e8082b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Mercury_Lod.mat using Guid(d7a335629d5364542a8c4be1e8082b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2243edc03e6530e29896686730e03b4') in 0.040172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Uranus_2k.mat
+  artifactKey: Guid(7d7d4e53bd1724858a2c2e5923290ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Uranus_2k.mat using Guid(7d7d4e53bd1724858a2c2e5923290ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec27f30aa6fce8fab6df82b39c2b37f') in 0.029538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Uranus_Lod.mat
+  artifactKey: Guid(3e08908404675454997e033538768b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Uranus_Lod.mat using Guid(3e08908404675454997e033538768b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc310a6b7d7debb5537e13d31d374789') in 0.038269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Neptune_Lod.mat
+  artifactKey: Guid(b5bad6a4e27f8409898cc9791fcc860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Neptune_Lod.mat using Guid(b5bad6a4e27f8409898cc9791fcc860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f93618367423e953a1d05738369003') in 0.036792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Venus_2k.mat
+  artifactKey: Guid(58cb1c700baee41b683c8a01e77d0619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Venus_2k.mat using Guid(58cb1c700baee41b683c8a01e77d0619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e5201f2ec9370348ac3f95db3ffff0') in 0.030896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Earth_Lod.mat
+  artifactKey: Guid(57efe82f80f0e41ceba1f93b5c0054e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Earth_Lod.mat using Guid(57efe82f80f0e41ceba1f93b5c0054e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7f3736212fa413f4f410020600a8d7') in 0.040704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Sun Sphere.mat
+  artifactKey: Guid(a88ffc134d0ae4e1b93afd6b311c9d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Sun Sphere.mat using Guid(a88ffc134d0ae4e1b93afd6b311c9d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce8d21bf2e5a58a6367294ee51514e1') in 0.015825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Sun_Smoke.mat
+  artifactKey: Guid(6a153e0b17949482b8dc5f75d33fce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Sun_Smoke.mat using Guid(6a153e0b17949482b8dc5f75d33fce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d57f56f52530c3f092558a68cf40fb6') in 0.036536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Earth_2k.mat
+  artifactKey: Guid(670b7104971d44954831a97e59d835d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Earth_2k.mat using Guid(670b7104971d44954831a97e59d835d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150ec843ec8ab750f8449e21d160fd27') in 0.033895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Jupiter_2k.mat
+  artifactKey: Guid(957a2e19e0e14495fbce6467614c3e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Jupiter_2k.mat using Guid(957a2e19e0e14495fbce6467614c3e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4964a6bbb5f7f2e855c054a2b227c636') in 0.032087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Jupiter_Lod.mat
+  artifactKey: Guid(a4b2e6c4c8a36405ea80acf088c5a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Jupiter_Lod.mat using Guid(a4b2e6c4c8a36405ea80acf088c5a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9d7522332ac906fa06247ad612daab') in 0.037131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Sun.mat
+  artifactKey: Guid(1e14bb05546c54c5592fd7918d09db74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Sun.mat using Guid(1e14bb05546c54c5592fd7918d09db74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3059cf772a6339a60f70fb4c0f60eae') in 0.016327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Venus_Lod.mat
+  artifactKey: Guid(91d202aeca59041238b6784ce9aecde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Venus_Lod.mat using Guid(91d202aeca59041238b6784ce9aecde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268bc5ad12ea5be9aa228082205f7022') in 0.039240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Moon_2k.mat
+  artifactKey: Guid(49fcf79b44f0f4410812764ecb2ae8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Moon_2k.mat using Guid(49fcf79b44f0f4410812764ecb2ae8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00785079b2082a3764c0484666f81de3') in 0.033224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Moon_Lod.mat
+  artifactKey: Guid(948fe8f7d46f84bfaa54cc429a563b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Moon_Lod.mat using Guid(948fe8f7d46f84bfaa54cc429a563b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf9d50ac21b4913236d8422a5327e4e') in 0.020876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.648053 seconds.
+  path: Assets/Planets of the Solar System 3D/Settings/POTSS_PostProcess_Profile.asset
+  artifactKey: Guid(546232da20941864299e9478718f64af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Settings/POTSS_PostProcess_Profile.asset using Guid(546232da20941864299e9478718f64af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68454c93527896c99abd0f59fbc83682') in 0.043366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Planets of the Solar System 3D/Settings/POTSS_UniversalRP.asset
+  artifactKey: Guid(f82cf8e8434b44cca827dfd78aaa01f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Settings/POTSS_UniversalRP.asset using Guid(f82cf8e8434b44cca827dfd78aaa01f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73179bb7b0f54c54c8f8b2478837ff9') in 1.084083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Planets of the Solar System 3D/Settings/POTSS_UniversalRP_Renderer.asset
+  artifactKey: Guid(55e92ec17c92445238419d35d8900259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Settings/POTSS_UniversalRP_Renderer.asset using Guid(55e92ec17c92445238419d35d8900259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd5e58b02a8aad55f279f788c0161cd') in 0.028684 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (436.7 KB). Loaded Objects now: 5774.
+Memory consumption went from 98.3 MB to 97.9 MB.
+Total: 4.789000 ms (FindLiveObjects: 0.531800 ms CreateObjectMapping: 0.183700 ms MarkObjects: 3.666700 ms  DeleteObjects: 0.405700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21.036455 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Moon.prefab
+  artifactKey: Guid(f9a741bb8762344c6a2a9cb4217ef728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Moon.prefab using Guid(f9a741bb8762344c6a2a9cb4217ef728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78aa3c7b7dddb389ed31f519b2d0d307') in 0.032948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.379161 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Moon.prefab
+  artifactKey: Guid(f9a741bb8762344c6a2a9cb4217ef728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Moon.prefab using Guid(f9a741bb8762344c6a2a9cb4217ef728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a885a64bfa221b45ef102d99db938a0b') in 0.028000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.642990 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/FX
+  artifactKey: Guid(82f08c18fa3774df9b602fb85f32e62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/FX using Guid(82f08c18fa3774df9b602fb85f32e62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6651afd1654c171498b9ce49146dfeb8') in 0.011251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038081 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/FX/Cloud.png
+  artifactKey: Guid(206ef5972611d42c897fafda4c576e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/FX/Cloud.png using Guid(206ef5972611d42c897fafda4c576e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e4f7726e31e8615328bdfc1c8bd1f3') in 0.054159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/FX/milkyway_2048.png
+  artifactKey: Guid(d5dbee160987865499c6322d1567fc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/FX/milkyway_2048.png using Guid(d5dbee160987865499c6322d1567fc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2e8f76aca0815b2c4bebe9f4356b86') in 0.109898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.975150 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Asteroids.png
+  artifactKey: Guid(f86f3eee3fc3641f0ac3fbb7e1fb6999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Asteroids.png using Guid(f86f3eee3fc3641f0ac3fbb7e1fb6999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cecfa66704a99c9fc4e664e1f9fee8') in 0.018100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Mars_2k.png
+  artifactKey: Guid(785a85c72ee2045db9591e4a9a7fbbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Mars_2k.png using Guid(785a85c72ee2045db9591e4a9a7fbbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc04f0ac25909acfcc4c513a52e0d0c') in 0.035630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Uranus_2k.png
+  artifactKey: Guid(225494c2ffe3e445ab0aa1b3f6a661f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Uranus_2k.png using Guid(225494c2ffe3e445ab0aa1b3f6a661f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599e682cdc3239a1db531fe47ea81bc4') in 0.029131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Venus_Lod.png
+  artifactKey: Guid(801773570d3c3432fa626d8c3f3d4d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Venus_Lod.png using Guid(801773570d3c3432fa626d8c3f3d4d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7e3829de648c8a0df6715aa045ad4b') in 0.039370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Saturn_Lod.png
+  artifactKey: Guid(83e70baf360a54388bf937bfb511fd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Saturn_Lod.png using Guid(83e70baf360a54388bf937bfb511fd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b8b1970c5615a01360236d0f461a31') in 0.039955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Mercury_Lod.png
+  artifactKey: Guid(37071c04cf8964e609d0b9777a4e7430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Mercury_Lod.png using Guid(37071c04cf8964e609d0b9777a4e7430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c805e739832f9264d2b80705f37b916') in 0.041775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Earth_4k.png
+  artifactKey: Guid(0367c6e3b2e814b1b8c10f37ab658fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Earth_4k.png using Guid(0367c6e3b2e814b1b8c10f37ab658fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f59e6f2930bd079d28075a7fae5ac0') in 0.031278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Jupiter_2k.png
+  artifactKey: Guid(2f1708834aabb4bd582abee7638e4da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Jupiter_2k.png using Guid(2f1708834aabb4bd582abee7638e4da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12704092c4cb312d5cebf6e6d6aebc01') in 0.030939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Moon_2k.png
+  artifactKey: Guid(d6af807e406cb4574906ca1b1e2dd8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Moon_2k.png using Guid(d6af807e406cb4574906ca1b1e2dd8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24932c6ae9e31651c9d071128e700c2b') in 0.032096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Moon_Lod.png
+  artifactKey: Guid(ed72c23d28c714738bace7abf3ce7787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Moon_Lod.png using Guid(ed72c23d28c714738bace7abf3ce7787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99640d121cfdc80f0acf5d81c46a6bae') in 0.019900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Saturn_Ring.png
+  artifactKey: Guid(7bd0cab026ec84d0facda1bb6ef5818d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Saturn_Ring.png using Guid(7bd0cab026ec84d0facda1bb6ef5818d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ef7a91a3c9bd758f5bd38b1687343a') in 0.022087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Mercury_2k.png
+  artifactKey: Guid(cce2301743d2141678f7423df467472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Mercury_2k.png using Guid(cce2301743d2141678f7423df467472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2125c7c99b0b66bdcd566d096a092407') in 0.034199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Neptune_2k.png
+  artifactKey: Guid(7fa5ce735aa1b4408a20b98a30f0dad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Neptune_2k.png using Guid(7fa5ce735aa1b4408a20b98a30f0dad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13dd432a364e68bad85a8502b34114e') in 0.031866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Pluto_2k.png
+  artifactKey: Guid(c30c20856f88b43289aeed89910865da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Pluto_2k.png using Guid(c30c20856f88b43289aeed89910865da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8a983e616746e00c4819337dd20035') in 0.034077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Earth_Lod.png
+  artifactKey: Guid(5557d027e948d4b6194fccc5771b4fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Earth_Lod.png using Guid(5557d027e948d4b6194fccc5771b4fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e49fda062c8e54c44d5c8dc12a3982c') in 0.042614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Venus_2K.png
+  artifactKey: Guid(d5c9344e016b14b5f9fae5f0d703b15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Venus_2K.png using Guid(d5c9344e016b14b5f9fae5f0d703b15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8167fc43970df6873b76502061bcab') in 0.034609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Pluto_Lod.png
+  artifactKey: Guid(9cbb5d77b1db34ddba3d8974e28dfcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Pluto_Lod.png using Guid(9cbb5d77b1db34ddba3d8974e28dfcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d5e472da7af6b909e7bd7e8bb8dac9') in 0.042507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Neptune_Lod.png
+  artifactKey: Guid(9da00a53a276d4b90a364b29d8b0f57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Neptune_Lod.png using Guid(9da00a53a276d4b90a364b29d8b0f57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1e80ad3b39665ddb6390c1a9cdd74a') in 0.042109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Mars_Lod.png
+  artifactKey: Guid(1132202edabc645f8812784febe5f3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Mars_Lod.png using Guid(1132202edabc645f8812784febe5f3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c726b2205f1b959cedbae1999b24e0d') in 0.042966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Uranus_Lod.png
+  artifactKey: Guid(574dbbcada97545ad861f479e5369c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Uranus_Lod.png using Guid(574dbbcada97545ad861f479e5369c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47aeb6e4533e7a638ec7356fbf374802') in 0.040307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Saturn_2k.png
+  artifactKey: Guid(642e5534a95f84daca32f0fcf0fa6c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Saturn_2k.png using Guid(642e5534a95f84daca32f0fcf0fa6c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990131e4d243285c461c9eb1b064b2af') in 0.036207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Planets of the Solar System 3D/Textures/Planets/Jupiter_Lod.png
+  artifactKey: Guid(708cd200decec43bab96adffb37942e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Textures/Planets/Jupiter_Lod.png using Guid(708cd200decec43bab96adffb37942e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d85608356a3b1f7624b079ddd1baab') in 0.040571 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 102.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (411.3 KB). Loaded Objects now: 5780.
+Memory consumption went from 98.5 MB to 98.1 MB.
+Total: 4.896300 ms (FindLiveObjects: 0.522800 ms CreateObjectMapping: 0.226200 ms MarkObjects: 3.857300 ms  DeleteObjects: 0.289200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 659.672114 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Asteroids Belt.prefab
+  artifactKey: Guid(c0aedbee0212d4ba08d6e85a65854d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Asteroids Belt.prefab using Guid(c0aedbee0212d4ba08d6e85a65854d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d8bbd1f01039b6089f60588647693e') in 0.169290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Nebula_01.prefab
+  artifactKey: Guid(00f2918771afc4e07b0a2018e54d57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Nebula_01.prefab using Guid(00f2918771afc4e07b0a2018e54d57ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f836628f9aaff61b37886baf1e9397') in 0.025699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Asteroids Sphere.prefab
+  artifactKey: Guid(05f83c52d1bc44293a6b0b2bee748289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Asteroids Sphere.prefab using Guid(05f83c52d1bc44293a6b0b2bee748289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e2bbc2a51b688b41af150e22ea5780') in 0.034409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Neptune.prefab
+  artifactKey: Guid(5d1442ad8c11442988e0eca5d8af73f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Neptune.prefab using Guid(5d1442ad8c11442988e0eca5d8af73f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1978e9c5907a45730d026a3fe055924') in 0.293868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Jupiter.prefab
+  artifactKey: Guid(7e4bfb3c6ba1d4bc4ba31d585abdae0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Jupiter.prefab using Guid(7e4bfb3c6ba1d4bc4ba31d585abdae0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773553d1b1ca0c61651569ac5453ee10') in 0.065996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Earth.prefab
+  artifactKey: Guid(300f80108a63f48618cb4a1c8b8c1e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Earth.prefab using Guid(300f80108a63f48618cb4a1c8b8c1e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4704a6e67372822715c8a2ce49add68e') in 0.069458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Mercury.prefab
+  artifactKey: Guid(ab152f61198d54532ae39108e616ff59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Mercury.prefab using Guid(ab152f61198d54532ae39108e616ff59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6e20830dead6539296452e36a896da') in 0.090987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Nebula_00.prefab
+  artifactKey: Guid(0d6eac9ae2914445e800eedd322e8b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Nebula_00.prefab using Guid(0d6eac9ae2914445e800eedd322e8b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f8c73e23c920d6e080d3b47d161d4f') in 0.025269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Sun.prefab
+  artifactKey: Guid(5f776740c447e45afb25edbca842de92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Sun.prefab using Guid(5f776740c447e45afb25edbca842de92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1536468f723867a044f9209cb1563d40') in 0.027395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Mars.prefab
+  artifactKey: Guid(1818e1a170ef94c3aacee2ba50057521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Mars.prefab using Guid(1818e1a170ef94c3aacee2ba50057521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f23b3b148530a52aa3437b529473f53') in 0.092785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Saturn.prefab
+  artifactKey: Guid(b4201d402613a4464b35c805dafcca62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Saturn.prefab using Guid(b4201d402613a4464b35c805dafcca62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875c85a5bb876af03b9c5e10c9c9e174') in 0.098117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Venus.prefab
+  artifactKey: Guid(835acc1a9ebe24c0fa3854c99346f9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Venus.prefab using Guid(835acc1a9ebe24c0fa3854c99346f9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e33489b528da58c150f0a7a813073b3') in 0.070431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Pluto.prefab
+  artifactKey: Guid(baebbc833ecda42dd8a75966c9f62420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Pluto.prefab using Guid(baebbc833ecda42dd8a75966c9f62420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b301acf593c3824213a904429ba3c236') in 0.065407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Uranus.prefab
+  artifactKey: Guid(c91342f6e3afc48fd958056404ead345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Uranus.prefab using Guid(c91342f6e3afc48fd958056404ead345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96b2ce7bb496ced0d2386b5dd4d9a52') in 0.058835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Sun Sphere.prefab
+  artifactKey: Guid(ec1861462fc1b46f1a1c1c3c0f1f7f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Sun Sphere.prefab using Guid(ec1861462fc1b46f1a1c1c3c0f1f7f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34691c0054c7e68286866d921cd41c89') in 0.022379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Planets of the Solar System 3D/Prefabs/Moon.prefab
+  artifactKey: Guid(f9a741bb8762344c6a2a9cb4217ef728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Prefabs/Moon.prefab using Guid(f9a741bb8762344c6a2a9cb4217ef728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc941b481a1d59dbc3a044afd47ebd2') in 0.047842 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (426.7 KB). Loaded Objects now: 5782.
+Memory consumption went from 99.4 MB to 99.0 MB.
+Total: 4.893200 ms (FindLiveObjects: 0.577300 ms CreateObjectMapping: 0.138300 ms MarkObjects: 3.850100 ms  DeleteObjects: 0.325600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 852.169898 seconds.
+  path: Assets/Planets of the Solar System 3D/Geometry/Asteroids.fbx
+  artifactKey: Guid(61cb025e834864d63b72bee13fbbb2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Geometry/Asteroids.fbx using Guid(61cb025e834864d63b72bee13fbbb2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a6cc8e634aff1c56f3b6ed19fbc339') in 0.051769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.888576 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/Sun FX.mat
+  artifactKey: Guid(82479439eac344631aaef1977dcaf8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/Sun FX.mat using Guid(82479439eac344631aaef1977dcaf8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725ddaa7656b6e76129a4ef4e6760d5a') in 0.019249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Mars_2k.mat
+  artifactKey: Guid(8a5995a14cffc46c9946c25b14f7c26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Mars_2k.mat using Guid(8a5995a14cffc46c9946c25b14f7c26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529edc8db3b067ca676f78d14d7ca965') in 0.032017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Saturn_Lod.mat
+  artifactKey: Guid(b50a4cf008d5346299340465ad3583f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Saturn_Lod.mat using Guid(b50a4cf008d5346299340465ad3583f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d4a0df78163a2815935e70065b2700') in 0.040570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Asteroid.mat
+  artifactKey: Guid(b5ead511677a448758f7cd3c61b8e557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Asteroid.mat using Guid(b5ead511677a448758f7cd3c61b8e557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c2c1581467fbd50be7f533549fe016') in 0.017464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Pluto_Lod.mat
+  artifactKey: Guid(811507dbca1de47c08d812bfcf368fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Pluto_Lod.mat using Guid(811507dbca1de47c08d812bfcf368fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e00b429e502d08ce3c44a2c32e4ace7') in 0.037114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Mercury_2k.mat
+  artifactKey: Guid(ab6161919f1cb4e40a36aa58f68a2c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Mercury_2k.mat using Guid(ab6161919f1cb4e40a36aa58f68a2c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b94a78d86c67d6e599940a69fb6cb84') in 0.033191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Saturn_2k.mat
+  artifactKey: Guid(3b93dc7ab96024123abc24e04ca01e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Saturn_2k.mat using Guid(3b93dc7ab96024123abc24e04ca01e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c21cba37d12e3d8d044f08bea5bbaa') in 0.032552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Neptune_2k.mat
+  artifactKey: Guid(f29f4f3d96cac4e53954f0d84aad655d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Neptune_2k.mat using Guid(f29f4f3d96cac4e53954f0d84aad655d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300c9043f751511f7bc0b547c54da168') in 0.032476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Saturn_Ring.mat
+  artifactKey: Guid(e35abc06097ca4fcda800d7ee918a9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Saturn_Ring.mat using Guid(e35abc06097ca4fcda800d7ee918a9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98cb321c00585023b1fc090bcde2344') in 0.020766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Pluto_2k.mat
+  artifactKey: Guid(89e79642fd54940e0a8465ce67a29db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Pluto_2k.mat using Guid(89e79642fd54940e0a8465ce67a29db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d0850f8289cce2310826e6387d2cbf') in 0.033053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Mars_Lod.mat
+  artifactKey: Guid(9a4f43f54cabf468ba39d389732e09f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Mars_Lod.mat using Guid(9a4f43f54cabf468ba39d389732e09f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04423debc9414f62ed6e81af99bd10f0') in 0.038864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Mercury_Lod.mat
+  artifactKey: Guid(d7a335629d5364542a8c4be1e8082b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Mercury_Lod.mat using Guid(d7a335629d5364542a8c4be1e8082b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c117cbdcab6c6690ddc2003fd45121') in 0.037132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Uranus_2k.mat
+  artifactKey: Guid(7d7d4e53bd1724858a2c2e5923290ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Uranus_2k.mat using Guid(7d7d4e53bd1724858a2c2e5923290ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04acad79b74cb8e5818a42d30a4ceeed') in 0.030259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Uranus_Lod.mat
+  artifactKey: Guid(3e08908404675454997e033538768b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Uranus_Lod.mat using Guid(3e08908404675454997e033538768b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4059f10e1e93e96e68eb7dfbab4dda47') in 0.037881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Neptune_Lod.mat
+  artifactKey: Guid(b5bad6a4e27f8409898cc9791fcc860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Neptune_Lod.mat using Guid(b5bad6a4e27f8409898cc9791fcc860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90350e663fd199c60bd6a50e14dba30') in 0.039592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Venus_2k.mat
+  artifactKey: Guid(58cb1c700baee41b683c8a01e77d0619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Venus_2k.mat using Guid(58cb1c700baee41b683c8a01e77d0619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d93c726646a86f154149abed45d433') in 0.032947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Earth_Lod.mat
+  artifactKey: Guid(57efe82f80f0e41ceba1f93b5c0054e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Earth_Lod.mat using Guid(57efe82f80f0e41ceba1f93b5c0054e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3aa6fb5372891b8dc72ddd43512aa3') in 0.042311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Sun Sphere.mat
+  artifactKey: Guid(a88ffc134d0ae4e1b93afd6b311c9d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Sun Sphere.mat using Guid(a88ffc134d0ae4e1b93afd6b311c9d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1da4f726751eef4cd7e68c7841d7262') in 0.015987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Sun_Smoke.mat
+  artifactKey: Guid(6a153e0b17949482b8dc5f75d33fce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Sun_Smoke.mat using Guid(6a153e0b17949482b8dc5f75d33fce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07a6f008ee71ee4bce0cc219d211445') in 0.020949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Earth_2k.mat
+  artifactKey: Guid(670b7104971d44954831a97e59d835d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Earth_2k.mat using Guid(670b7104971d44954831a97e59d835d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849a41c34e0a9723c68b16165be108ed') in 0.034764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Jupiter_2k.mat
+  artifactKey: Guid(957a2e19e0e14495fbce6467614c3e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Jupiter_2k.mat using Guid(957a2e19e0e14495fbce6467614c3e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7699310901758c16ad160d65e4efc788') in 0.034585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Jupiter_Lod.mat
+  artifactKey: Guid(a4b2e6c4c8a36405ea80acf088c5a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Jupiter_Lod.mat using Guid(a4b2e6c4c8a36405ea80acf088c5a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99cbfbc5299291606c8e5683cfd19d4') in 0.039293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Sun.mat
+  artifactKey: Guid(1e14bb05546c54c5592fd7918d09db74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Sun.mat using Guid(1e14bb05546c54c5592fd7918d09db74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a08b01197e66c77c4c50062aa6985d') in 0.015756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Venus_Lod.mat
+  artifactKey: Guid(91d202aeca59041238b6784ce9aecde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Venus_Lod.mat using Guid(91d202aeca59041238b6784ce9aecde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdffbdf0454771cf04d7258bc4f2dc5') in 0.039770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Moon_2k.mat
+  artifactKey: Guid(49fcf79b44f0f4410812764ecb2ae8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Moon_2k.mat using Guid(49fcf79b44f0f4410812764ecb2ae8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a131b2c02db5f54285f2b0c6baae0a1c') in 0.034187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Planets of the Solar System 3D/Materials/URP_Moon_Lod.mat
+  artifactKey: Guid(948fe8f7d46f84bfaa54cc429a563b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Materials/URP_Moon_Lod.mat using Guid(948fe8f7d46f84bfaa54cc429a563b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9605b82da6d2e632138b255e36626a') in 0.017960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.599478 seconds.
+  path: Assets/Planets of the Solar System 3D/Scenes/Overview.unity
+  artifactKey: Guid(814be974cad794e15b4b92041614ba68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Scenes/Overview.unity using Guid(814be974cad794e15b4b92041614ba68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99840dc4089ee6f6a311577c3c74ada0') in 0.011743 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006777 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\projects\22011526_spatial_computing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\projects\22011526_spatial_computing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.350 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1351ms)
+		BeginReloadAssembly (278ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (944ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (365ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5178 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (434.4 KB). Loaded Objects now: 5784.
+Memory consumption went from 202.4 MB to 202.0 MB.
+Total: 3.499100 ms (FindLiveObjects: 0.465900 ms CreateObjectMapping: 0.122800 ms MarkObjects: 2.634000 ms  DeleteObjects: 0.275400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 41.042993 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6a07ef667357676c37db91ae010746') in 0.018891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Planets of the Solar System 3D/Shaders/Planet.shadergraph
+  artifactKey: Guid(9613165056b174b1c95b1c3ddf7a2d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets of the Solar System 3D/Shaders/Planet.shadergraph using Guid(9613165056b174b1c95b1c3ddf7a2d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e3712a9a224eee93f05a435eaa84cf') in 0.022185 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (424.8 KB). Loaded Objects now: 5785.
+Memory consumption went from 99.0 MB to 98.5 MB.
+Total: 4.907500 ms (FindLiveObjects: 0.569100 ms CreateObjectMapping: 0.147300 ms MarkObjects: 3.771800 ms  DeleteObjects: 0.418200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007236 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\projects\22011526_spatial_computing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\projects\22011526_spatial_computing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.468 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1469ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1191ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (440ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (496ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5178 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (417.5 KB). Loaded Objects now: 5789.
+Memory consumption went from 202.4 MB to 202.0 MB.
+Total: 4.422500 ms (FindLiveObjects: 0.615000 ms CreateObjectMapping: 0.306700 ms MarkObjects: 3.174300 ms  DeleteObjects: 0.325000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 753.815874 seconds.
+  path: Assets/ExampleAssets/Materials
+  artifactKey: Guid(ffd318dbb37362c4f8d87863d082b2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials using Guid(ffd318dbb37362c4f8d87863d082b2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6f3d41a292f5b9e20211fd84e2d605') in 0.037242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024333 seconds.
+  path: Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat
+  artifactKey: Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat using Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284603d9baf938c5acf05c05a0d2a6c8') in 0.257226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ExampleAssets/Materials/DryWall_Mat.mat
+  artifactKey: Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/DryWall_Mat.mat using Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5576b9c0415772d46ee5ca6bc8fa257') in 0.113396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ExampleAssets/Materials/Strap_Mat.mat
+  artifactKey: Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Strap_Mat.mat using Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26155fcc619daa53c5df0089bf8ee68f') in 0.131391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat
+  artifactKey: Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat using Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de46ed92b0614f839ca8792aee21155') in 0.118355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ExampleAssets/Materials/Ground_Mat.mat
+  artifactKey: Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Ground_Mat.mat using Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7eead7b73ccd49da9a8bf7c43e8c1ca') in 0.118583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat
+  artifactKey: Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat using Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9761650b2d849c9ec98ff0d701d04902') in 0.149836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Transparent.mat
+  artifactKey: Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Transparent.mat using Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d3740ee64e52eab3e90d7ae2be9b39') in 0.037654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ExampleAssets/Materials/Jigsaw_Mat.mat
+  artifactKey: Guid(801db2d997a562b4ea333aa4593ce0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Jigsaw_Mat.mat using Guid(801db2d997a562b4ea333aa4593ce0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0779ced105c6c997f3287c2d5dd75b') in 0.147573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ExampleAssets/Materials/Hammer_Mat.mat
+  artifactKey: Guid(4efcffd7ae23f1e41943fd914b18da10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Hammer_Mat.mat using Guid(4efcffd7ae23f1e41943fd914b18da10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbd4f79a9130dfd05893a446ed186bd') in 0.113601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat
+  artifactKey: Guid(bd2d742ee2ce7a740ae0cf992a38be74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat using Guid(bd2d742ee2ce7a740ae0cf992a38be74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66f3e337b88861afc1fbbde85ccf4a9') in 0.055431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat
+  artifactKey: Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat using Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b002efaa3e8825af0f3b002737e51c63') in 0.101919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExampleAssets/Materials/PaintLabel_Mat.mat
+  artifactKey: Guid(3da4aad06945bbf4baf801c2aacbc01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PaintLabel_Mat.mat using Guid(3da4aad06945bbf4baf801c2aacbc01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39a5c370e79e480f300c3e12c5cc6e3') in 0.170916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ExampleAssets/Materials/LightBulb_Mat.mat
+  artifactKey: Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/LightBulb_Mat.mat using Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0722aea5cbdedd89a64ee3562f9616fc') in 0.106805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ExampleAssets/Materials/HardHat_Mat.mat
+  artifactKey: Guid(e93789f0a5d66df4a81613935579642b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/HardHat_Mat.mat using Guid(e93789f0a5d66df4a81613935579642b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1321b3bed50b895d105dbbbc428691') in 0.124641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat
+  artifactKey: Guid(e745492728544aa488aa0429b6068e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat using Guid(e745492728544aa488aa0429b6068e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e561445d508ff36f41cc143a0efdfcb') in 0.025052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat
+  artifactKey: Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat using Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b767f17070a8fb6d9aa3035a925d7a') in 0.155080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat
+  artifactKey: Guid(c05de7c865075334786e6a47a543af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat using Guid(c05de7c865075334786e6a47a543af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a4605f53c6dbddcdc92502de46cdc8') in 0.087964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat
+  artifactKey: Guid(cd71291c91c8cce499cb663b5db9970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat using Guid(cd71291c91c8cce499cb663b5db9970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3430084ed3fa0251adb260e470314c16') in 0.055607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat
+  artifactKey: Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat using Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2992ec691658452339f5ff2c57fed36b') in 0.353853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_White_Mat.mat
+  artifactKey: Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_White_Mat.mat using Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa37989847756598d0ec9284b32ca23') in 0.039307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ExampleAssets/Materials/Liquid_Mat.mat
+  artifactKey: Guid(c532880e607f8c84d8b9bf0c46a522ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Liquid_Mat.mat using Guid(c532880e607f8c84d8b9bf0c46a522ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9ede8bc0cd7699b7c7a1f6e1057a00') in 0.036102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ExampleAssets/Materials/OBS_Mat.mat
+  artifactKey: Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/OBS_Mat.mat using Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d660568c0dfa507dc17260db24bd8a3') in 0.282442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ExampleAssets/Materials/PaintBrush_Mat.mat
+  artifactKey: Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PaintBrush_Mat.mat using Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2e3edf1af4ebfb129b084a526d8560') in 0.137500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ExampleAssets/Materials/Stud_Mat.mat
+  artifactKey: Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Stud_Mat.mat using Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876f86654d7900694de0439a99a09979') in 0.173273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.834630 seconds.
+  path: Assets/Starter Package/ReticleBehaviour.cs
+  artifactKey: Guid(c357a1c3669144ca184d86b7c3e43c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starter Package/ReticleBehaviour.cs using Guid(c357a1c3669144ca184d86b7c3e43c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c8064ac676824e0980f13fbc0f2209') in 0.026780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.615996 seconds.
+  path: Assets/Dust Material.mat
+  artifactKey: Guid(ba0efcfa8bc6643cc97d52ce4f48acde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dust Material.mat using Guid(ba0efcfa8bc6643cc97d52ce4f48acde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cce7f9dd5cb19eaa5013c3c0d9991e') in 2.719202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.886425 seconds.
+  path: Assets/Dust Material.mat
+  artifactKey: Guid(ba0efcfa8bc6643cc97d52ce4f48acde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dust Material.mat using Guid(ba0efcfa8bc6643cc97d52ce4f48acde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
+ -> (artifact id: 'c7d9bcfbdb0f112ddffdfcb378d2c42b') in 0.349674 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006330 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\projects\22011526_spatial_computing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\projects\22011526_spatial_computing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.239 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1240ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (925ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5178 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (442.1 KB). Loaded Objects now: 5792.
+Memory consumption went from 202.5 MB to 202.1 MB.
+Total: 3.931100 ms (FindLiveObjects: 0.491900 ms CreateObjectMapping: 0.123900 ms MarkObjects: 2.915300 ms  DeleteObjects: 0.399000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006709 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\projects\22011526_spatial_computing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\projects\22011526_spatial_computing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.375 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1376ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1127ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (489ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (101ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.03 ms.
+Unloading 5179 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (434.5 KB). Loaded Objects now: 5796.
+Memory consumption went from 202.6 MB to 202.2 MB.
+Total: 4.308500 ms (FindLiveObjects: 0.683900 ms CreateObjectMapping: 0.173000 ms MarkObjects: 3.016600 ms  DeleteObjects: 0.433500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (417.3 KB). Loaded Objects now: 5797.
+Memory consumption went from 99.4 MB to 99.0 MB.
+Total: 4.603000 ms (FindLiveObjects: 0.503800 ms CreateObjectMapping: 0.122000 ms MarkObjects: 3.537600 ms  DeleteObjects: 0.437800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007158 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\projects\22011526_spatial_computing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\projects\22011526_spatial_computing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.642 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1643ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1355ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (403ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (570ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5178 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (424.6 KB). Loaded Objects now: 5801.
+Memory consumption went from 202.6 MB to 202.2 MB.
+Total: 4.747800 ms (FindLiveObjects: 0.752100 ms CreateObjectMapping: 0.210800 ms MarkObjects: 3.402300 ms  DeleteObjects: 0.381300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
